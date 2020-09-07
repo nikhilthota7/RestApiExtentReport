@@ -1,0 +1,566 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2251700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DeleteRequest.BeforeHook(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 740600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PostStepDefinition.BeforeHook(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 592900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GetRequestStepDefinition.BeforeHook(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 456900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PutRequestStepDefinition.beforehook(Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Delete request",
+        "description": "",
+        "id": "delete-response-capturing;delete-request",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "Base uri ishttps://reqres.in/"
+            ],
+            "result": {
+              "duration": 889101400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I have end point API URI",
+            "match": {
+              "location": "DeleteRequest.i_have_end_point_API_URI()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "Uri entered is"
+            ],
+            "result": {
+              "duration": 2985844600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter uri and submit",
+            "match": {
+              "location": "DeleteRequest.i_enter_uri_and_submit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Status code from response is 204"
+            ],
+            "result": {
+              "duration": 121611900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should get 204 as response code",
+            "match": {
+              "arguments": [
+                {
+                  "val": "204",
+                  "offset": 13
+                }
+              ],
+              "location": "DeleteRequest.i_should_get_as_response_code(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "DELETE RESPONSE CAPTURING",
+    "description": "",
+    "id": "delete-response-capturing",
+    "keyword": "Feature",
+    "uri": "C:/Users/769842/Java-Workspace/CucumberReportingApi2/src/test/resources/Features/Delete Request.feature",
+    "tags": []
+  },
+  {
+    "line": 20,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 460100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DeleteRequest.BeforeHook(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 512400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PostStepDefinition.BeforeHook(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 518400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GetRequestStepDefinition.BeforeHook(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 399600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PutRequestStepDefinition.beforehook(Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "GET RESPONSE API TESTING",
+        "description": "",
+        "id": "rest-assured-api-testing-with-cucumber-bdd-framework;get-response-api-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "Baseuri is :https://reqres.in/"
+            ],
+            "result": {
+              "duration": 1031800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I have an endpointApi",
+            "match": {
+              "location": "GetRequestStepDefinition.i_have_an_endpointApi()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "Endpoint uri is :{\"data\":{\"id\":2,\"email\":\"janet.weaver@reqres.in\",\"first_name\":\"Janet\",\"last_name\":\"Weaver\",\"avatar\":\"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg\"},\"ad\":{\"company\":\"StatusCode Weekly\",\"url\":\"http://statuscode.org/\",\"text\":\"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.\"}}"
+            ],
+            "result": {
+              "duration": 1049297300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I submit the Get request",
+            "match": {
+              "location": "GetRequestStepDefinition.i_submit_the_Get_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Status code from response is :200",
+              "I d from response :2",
+              "email from response :janet.weaver@reqres.in"
+            ],
+            "result": {
+              "duration": 664467200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I should get status code as 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 28
+                }
+              ],
+              "location": "GetRequestStepDefinition.i_should_get_status_code_as(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 468100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DeleteRequest.BeforeHook(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 378000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PostStepDefinition.BeforeHook(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 343600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GetRequestStepDefinition.BeforeHook(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 436000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PutRequestStepDefinition.beforehook(Scenario)"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "VERIFYING CONTENT FROM RESPONSE",
+        "description": "",
+        "id": "rest-assured-api-testing-with-cucumber-bdd-framework;verifying-content-from-response",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "Baseuri is :https://reqres.in/"
+            ],
+            "result": {
+              "duration": 1285500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I have an endpointApi",
+            "match": {
+              "location": "GetRequestStepDefinition.i_have_an_endpointApi()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "Endpoint uri is :{\"data\":{\"id\":2,\"email\":\"janet.weaver@reqres.in\",\"first_name\":\"Janet\",\"last_name\":\"Weaver\",\"avatar\":\"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg\"},\"ad\":{\"company\":\"StatusCode Weekly\",\"url\":\"http://statuscode.org/\",\"text\":\"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.\"}}"
+            ],
+            "result": {
+              "duration": 757951100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I submit the Get request",
+            "match": {
+              "location": "GetRequestStepDefinition.i_submit_the_Get_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "Email from response is :janet.weaver@reqres.in"
+            ],
+            "result": {
+              "duration": 159684000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the response should contain the id as 2 and email as \"janet.weaver@reqres.in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 38
+                },
+                {
+                  "val": "\"janet.weaver@reqres.in\"",
+                  "offset": 53
+                }
+              ],
+              "location": "GetRequestStepDefinition.the_response_should_contain_the_id_as_and_email_as(Integer,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "REST ASSURED API TESTING WITH CUCUMBER BDD FRAMEWORK",
+    "description": "",
+    "id": "rest-assured-api-testing-with-cucumber-bdd-framework",
+    "keyword": "Feature",
+    "uri": "C:/Users/769842/Java-Workspace/CucumberReportingApi2/src/test/resources/Features/Get Request.feature",
+    "tags": []
+  },
+  {
+    "line": 20,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 406500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DeleteRequest.BeforeHook(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 517400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PostStepDefinition.BeforeHook(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 430300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GetRequestStepDefinition.BeforeHook(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 694300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PutRequestStepDefinition.beforehook(Scenario)"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verifying the post request",
+        "description": "",
+        "id": "api-post-request;verifying-the-post-request",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "Base uri :https://reqres.in/"
+            ],
+            "result": {
+              "duration": 1020400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I have end point uri",
+            "match": {
+              "location": "PostStepDefinition.i_have_end_point_uri()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "Response after put request:{\"name\":\"Nikhil\",\"job\":\"software\"}",
+              "Header as {Content-Type\u003dapplication/json}",
+              "POST RESPONSE :{\"name\":\"Nikhil\",\"job\":\"software\",\"id\":\"409\",\"createdAt\":\"2020-09-02T11:42:22.677Z\"}"
+            ],
+            "result": {
+              "duration": 1814635400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I give post request with details",
+            "match": {
+              "location": "PostStepDefinition.i_give_post_request_with_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "STATUS CODE AFTER PUT REQUEST :201"
+            ],
+            "result": {
+              "duration": 1988800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I should get response code as 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 30
+                }
+              ],
+              "location": "PostStepDefinition.i_should_get_response_code_as(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1501700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "verifying the response body",
+            "match": {
+              "location": "PostStepDefinition.verifying_the_response_body()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "API POST REQUEST",
+    "description": "",
+    "id": "api-post-request",
+    "keyword": "Feature",
+    "uri": "C:/Users/769842/Java-Workspace/CucumberReportingApi2/src/test/resources/Features/Post Request.feature",
+    "tags": []
+  },
+  {
+    "line": 20,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 545800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DeleteRequest.BeforeHook(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 607300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PostStepDefinition.BeforeHook(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 542400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GetRequestStepDefinition.BeforeHook(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 530700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PutRequestStepDefinition.beforehook(Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "PUT REQUEST RESPONSE",
+        "description": "",
+        "id": "put-request;put-request-response",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "Base uri is:https://reqres.in/"
+            ],
+            "result": {
+              "duration": 1275500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I have an Put requestApi",
+            "match": {
+              "location": "PutRequestStepDefinition.i_have_an_Put_requestApi()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "RESPONSE BODY :{\"name\":\"Nikhil\",\"job\":\"Mechanical\"}",
+              "Header as {Content-Type\u003dapplication/json}",
+              "POST RESPONSE :{\"name\":\"Nikhil\",\"job\":\"Mechanical\",\"updatedAt\":\"2020-09-02T11:42:23.895Z\"}"
+            ],
+            "result": {
+              "duration": 1153621200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I submit the request",
+            "match": {
+              "location": "PutRequestStepDefinition.i_submit_the_request()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "STATUS CODE :200",
+              "validating job : Mechanical",
+              "validating name : Nikhil",
+              "Id and name is correctly coming"
+            ],
+            "result": {
+              "duration": 107422800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I will get response as 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 23
+                }
+              ],
+              "location": "PutRequestStepDefinition.i_will_get_response_as(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "PUT REQUEST",
+    "description": "",
+    "id": "put-request",
+    "keyword": "Feature",
+    "uri": "C:/Users/769842/Java-Workspace/CucumberReportingApi2/src/test/resources/Features/Put Request.feature",
+    "tags": []
+  }
+]
